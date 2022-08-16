@@ -3,7 +3,7 @@ package aulasegundaexercicios;
 
 
     
-    public class PessoaJuridica extends Pessoa 
+    public final class PessoaJuridica extends Pessoa implements IPessoa
 {
       private String cnpj;
       

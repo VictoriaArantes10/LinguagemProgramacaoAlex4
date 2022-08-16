@@ -1,14 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package aulasegundaexercicios;
 
-/**
- *
- * @author Victoria
- */
-    public class PessoaFisica extends Pessoa
+
+    public final class PessoaFisica extends Pessoa implements IPessoa
 {  
   private String cpf;
   

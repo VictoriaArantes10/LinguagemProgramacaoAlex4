@@ -2,7 +2,7 @@
 package aulasegundaexercicios;
 
 
-public class Pessoa {
+public abstract class Pessoa {
      
     
     private String nome;
@@ -60,22 +60,5 @@ public class Pessoa {
         this.endereco = endereco;
         this.valor =  desconto;
     }
-    
-    
-
-   public  void calcularDesconto(float percetualDesconto)
-    {
-        
-    }
-    
-    public void imprimir()
-    {
-        System.out.println("Nome: " + this.getNome());
-        System.out.println("Tolefone: " + this.getTelefone());
-        System.out.println("E-mail: " + this.getEmail());
-        System.out.println("Endereço: " + this.getEndereco());
-        System.out.println("Valor do Desconto: " + this.getValor());
-        
-    }
-    
+   
 }
